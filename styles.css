@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Fuente', Arial, Helvetica, sans-serif; /* Se establece la fuente personalizada en todos los elementos */
+}
+
+@font-face {
+    font-family: 'Fuente';
+    src: url('src/font/Fuente.ttf') format('truetype');
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header h2 {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav {
+    display: inline;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    background-color: #2b2b2b;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #3a3a3a;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    background: url(src/img/imagen_principal.png) no-repeat center;
+    background-color: #1a1a1a;
+    background-size: cover;
+}
+
+.title {
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #919191;
+    text-shadow: 2px 2px 0px black;
+}
+
+.btn {
+    display: inline-block;
+    width: fit-content;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #4a4a4a;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #6d0000;
+}
+
+.btn:hover {
+    background-color: #500000;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    padding: 100px;
+    background: url(src/img/leatherblack.jpg) center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+button {
+    display: flex;
+    margin-right: 20px;
+    padding: 40px 50px;
+    background-color: #00000000;
+    background-image: url(src/img/nopush.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+button:hover {
+    background-image: url(src/img/push.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.description {
+    display: none;
+    color: #919191;
+    line-height: 30px;
+    width: 90%;
+}
+
+.description .img_des {
+    float: left;
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+.slot-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.mundo {
+    justify-content: center;
+    padding: 250px;
+    background: url(src/img/leatherred.jpg) center;
+    background-size: 75%;
+    color: #ffffff;
+}
+
+.slot {
+    padding: 20px 50px;
+}
+
+.slot img {
+    display: flex;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.slot .title {
+    font-size: 40px;
+}
+
+.news {
+    justify-content: center;
+    background: url(src/img/leatherblack.jpg) center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box-container .box {
+    height: 25rem;
+    width: 20rem;
+    background-color: #2b2b2b;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+.box img {
+    margin-bottom: 30px;
+}
+
+.box-container .box:hover {
+    background-color: #4a4a4a;
+}
+
+.box-container .box .fecha {
+    margin-top: 7vh;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.about {
+    padding: 100px;
+    height: 275px;
+}
+
+.download {
+    padding: 100px;
+    height: 250px;
+    background: url(src/img/imagen_principal.png) no-repeat center;
+    background-color: #2e0000;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.download .title {
+    color: #ffffff;
+}
+
+.about {
+    align-items: center;
+    background: url(src/img/leatherblack.jpg) center;
+    background-size: cover;
+    height: 500px;
+    padding: 200px;
+}
+
+.about .title {
+    color: #ffffff;
+}
+
+.disclaimer {
+    padding: 100px;
+    height: 50px;
+}
+
+.video-player,
+.music-player {
+    margin-top: 20px;
+}
+
+.patrocinadores {
+    padding: 50px;
+    margin-bottom: 40px;
+    background-color: #a0522d;
+    color: #d2b48c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.beneficio {
+    flex-basis: calc(20% - 20px); 
+    padding: 10px;
+    margin: 10px;
+    background-color: #6d0000;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    height: 200px; 
+    font-size: 20px; 
+}
+
+.beneficio h3 {
+    font-size: 16px; 
+}
+
+.beneficio p {
+    font-size: 16px; 
+}
+
+.video-player video,
+.music-player audio {
+    width: 100%; 
+    max-width: 320px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.qua{
+    justify-content: left;
+    background: url(src/img/leatherred.jpg) center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px;
+    height: 800px;
+}
+.questions h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.obj{
+    justify-content: center;
+    background: url(src/img/leatherblack.jpg) center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px;
+    height: 200px;
+}
+.obj li{
+    font-size: 150%;
+}

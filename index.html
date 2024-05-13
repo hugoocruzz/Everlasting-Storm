@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everlasting Storm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="head">
+
+        <div class="logo">
+            <a href="#">
+                <img src="src/img/logo.png" height="80px" width="60px">
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre Everlasting Storm</a>
+            <a href="#mundo">Mundo</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#descarga">Descarga</a>
+            <a href="#patrocinadores">Patrocinadores</a>
+            <a href="#nosotros">Sobre Nosotros</a>
+        </nav>
+
+    </div>
+
+    <header class="content header" id="inicio">
+        <h2 class="title">EVERLASTING STORM</h2>
+        <p>
+            PIERDETE EN EL LABERINTO
+        </p>
+    
+        <div class="btn-home">
+            <a href="#" class="btn">COMPRA AHORA</a>
+        </div>
+        <div class="video-player">
+            <video width="320" height="240" controls>
+                <source src="src/vid/Video_Multimedia.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="music-player">
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </header>
+
+    <section class="content game" id="sobre">
+        <h2 class="title">Sobre Everlasting Storm</h2>
+        <div class="menu">
+            <button id="opt1">Juego</button>
+            <button id="opt2">Historia</button>
+        </div>
+        <div class="description" id="des1">
+            <img class="img_des" src="src/img/enemigos.png">
+            <p>Los jugadores se enfrentan a una variedad de enemigos que están adaptados a cada elemento. Algunos enemigos pueden ser más vulnerables o más poderosos en ciertas regiones. Los jugadores deben aprovechar el entorno y las debilidades de los enemigos para sobrevivir.
+            </p>
+        </div>
+        <div class="description" id="des2">    
+            <img class="img_des" src="src/img/elementos.png">
+            <p>En "Everlasting Storm", los jugadores se aventuran en un vasto laberinto generado proceduralmente, situado en el corazón de una tormenta eterna que es alimentada por cuatro elementos primordiales: fuego, agua, tierra y aire. Cada elemento tiene su propio conjunto de desafíos y enemigos únicos.
+            </p>
+        </div>
+        <script src="menu.js"></script>
+    </section>
+
+    <section class="content mundo" id="mundo">
+        <h2 class="title">Laberinto de Tlaloc</h2>
+        <p>En el mundo de Everlasting Storm cada jugador podrá tener una experiencia personalizada. Entra en el laberinto con hasta 3 amigos más para poner a prueba vuestras capacidades como grupo con desafíos únicos por cada paso que déis.</p>
+        <div class="slot-container">
+            <div class="slot">
+                <img src="src/img/personaje.png" height="200px" width="350px">
+                <h3 class="title">Personalización del personaje</h3>
+                <p>En Everlasting Storm cada jugador podrá contar con un personaje único personalizado con más de 50 000 combinaciones.</p>
+            </div>
+            <div class="slot">
+                <img src="src/img/elementos.png" height="200px" width="350px">
+                <h3 class="title">Elementos</h3>
+                <p>Usa la estrategia para resolver conflictos de forma más sencilla causando reacciones elementales a los enemigos.</p>
+            </div>
+            <div class="slot">
+                <img src="src/img/mejoras.png" height="200px" width="350px">
+                <h3 class="title">Árbol de habilidades</h3>
+                <p>A lo largo del juego el jugador irá subiendo de nivel la clase elegida y podrá mejorarla mediante esta función gracias a las más de 100 habilidades del juego.</p>
+            </div>
+            <div class="slot">
+                <img src="src/img/laberinto.png" height="200px" width="350px">
+                <h3 class="title">Laberinto</h3>
+                <p>En cada partida el laberinto irá cambiando y se generará de manera procedural escogiendo entre más de 50 escenarios con sus 5 variantes de biomas.</p>
+            </div>
+        </div>
+        <div class="music-player">
+            <audio controls>
+               <source src="src/audio/music.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </section>
+
+    <section class="content news" id="noticias">
+        <h2 class="title">Noticias</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="src/img/imagen_principal.png" height="175px" width="320px">
+                <p>Salida oficial de la 1º beta cerrada pronto.</p>
+                <h3 class="fecha">2 Jun</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="content qua" id="qa">
+        <h2 class="title">Preguntas frecuentes</h2>
+        <div class="questions">
+            <h3 class="title">1-¿Que es Everlasting Storm?</h3>
+            <p>Everlasting Storm es un roguelike en la que los jugadores se aventuran en un vasto laberinto.</p>
+            <h3 class="title">2- ¿Como funciona el laberinto?</h3>
+            <p>El laberinto esta dividido en 4 partes, cada una con si propio clima y terreno.</p>
+            <h3 class="title">3-¿Cual es la finalidad del jugador de Everlasting Storm?</h3>
+            <p>El  jugador no tiene otra finalidad que sobrevivir ya que el juego tiene Permadeath, es decir, el jugador comienza una nueva run cada vez que muere. El jugador para sobrevivir deberá analizar al enemigo para encontrar sus debilidades.</p>
+            <h3 class="title">4-¿los jugadores siempre tienen las mismas armas contra los enemigos?</h3>
+            <p>No, a medida que los jugadores avanzan, desbloquean habilidades y mejoras específicas de cada elemento. Por ejemplo, en la región de aire, podrían aprender a crear ráfagas de viento para volar sobre obstáculos.</p>
+            <h3 class="title">5- ¿Como surgió el nombre del videojuego?</h3>
+            <p>El nombre del videojuego es una breve descripción en dos palabras del videojuego, "tormenta eterna". Este nombre se eligió ya que pensamos que es la mejor forma de describir el tipo de videojuego que será, un roguelike con permadeath.</p>
+        </div>
+    </section>
+    
+    <section class="content download" id="descarga">
+        <h2 class="title">Descarga ya Everlasting Storm</h2>
+        <a href="#" class="btn">Descarga</a>
+    </section>
+
+    <section class="content obj">
+        <div class="objetivos">
+            <h3 class="title">Objetivos de Recaudación</h3>
+            <p>Ayúdanos a alcanzar nuestras metas de desarrollo:</p>
+            <ul>
+                <li>10k Nuevos enemigos y jefes finales</li>
+                <li>50k Nuevos biomas y elementos</li>
+                <li>100k Nuevos personajes jugables y más salas</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="content patrocinadores" id="patrocinadores">
+        <h2 class="title">¡Sé nuestro Patrocinador!</h2>
+        <div class="beneficios">
+            <div class="beneficio">
+                <h3 class="title">Nivel Bronce</h3>
+                <p>Con una donación de 10 euros, recibirás una copa con el logo de Everlasting Storm.</p>
+            </div>
+            <div class="beneficio">
+                <h3 class="title">Nivel Plata</h3>
+                <p>Con una donación de 20 euros, recibirás una copia del juego con ilustraciones exclusivas.</p>
+            </div>
+            <div class="beneficio">
+                <h3 class="title">Nivel Oro</h3>
+                <p>Con una donación de 50 euros, recibirás una copia del juego con ilustraciones exclusivas y una camiseta.</p>
+            </div>
+        </div>
+    </section>
+
+<section class="content about" id="nosotros">
+    <h2 class="title">Nosotros</h2>
+        <p>Hugo Cruz Herrero - Programador principal y animador</p>
+        <p>Ismael García Garrido - Programador Jefe y Supervisor</p>
+        <p>Ignacio Perea Sedano - Programador principal y coordinador</p>
+        <p>Sergio Ponce García - Diseñador gráfico, Community Manager</p>
+        <p>Alexandra Alina Pop - Artista Digital, concept artist y Diseñadora líder</p>
+        <p>Alejandro Sevillano Bohoyo - Guionista y encargado de marketing</p>
+    <a href="#" class="btn">Saber más</a>
+</section>
+
+<div id="disqus_thread"></div>
+<script>
+   
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://multimedia-17.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div class="content disclaimer">
+    ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio y no representa un producto real. Práctica de Multimedia, 1º GDDV- Curso 22/23 (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.
+</div>
+
+</body>
+</html>
